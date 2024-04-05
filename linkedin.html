@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="linkedin.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <span>Logo</span>
+            <input type="search" name="search" id="search" placeholder="  search...">
+            <ul>
+                <li>Home</li>
+                <li>My Network</li>
+                <li>Jobs</li>
+                <li>Notification</li>
+                <li>Setting</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <aside class="left">
+            <img src="2.jpg"
+                alt="">
+            <div class="second">
+                <h1>professional skills</h1>
+                <ul>
+                    <li>Software Development</li>
+                    <li>Cloud Technologies</li>
+                    <li>Java Script</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+            <div class="third">
+                <h1>Qualification</h1>
+                <p>12th science student</p>
+                <p>Bachelor's Degree In computer Science</p>
+                <p>Certification in Cloud Computing</p>
+            </div>
+        </aside>
+        <aside class="right">
+            <div class="box">
+                <img src="https://avatars.githubusercontent.com/u/155284848?v=4" alt="">
+                <div class="first-name">Niraj Bharadva</div>
+                <div class="second-name">2 hours ago</div>
+                <div class="seperation"></div>
+                <div class="para">
+                    <p><b>Hello guys!</b></p>
+                    <p>I am Niraj Bharadva, a computer student at GEC Modasa, hailing from Somnath. My journey in
+                        computer science is driven by a deep passion and an unyielding dedication to learning.
+                    </p>
+                    <p>Since my early days, I've been fascinated by technology. I eagerly explore the inner workings of
+                        computers, driven by curiosity to understand their potential..
+                    </p>
+                    <p>In my studies, I tackle challenges with zeal. Whether it's coding complex algorithms or designing
+                        software solutions, I strive for excellence with meticulous attention to detail.
+                    </p>
+                    <p> Outside the classroom, I actively participate in coding competitions and hackathons, seeking to
+                        expand my skills and knowledge. I understand the importance of real-world experience in
+                        complementing theoretical learning.
+                    </p>
+                    <p> Looking forward, I see endless opportunities in the field of computer science. I aspire to
+                        contribute to groundbreaking innovations and inspire future generations of computer scientists.
+                    </p>
+                    <p> In essence, I am more than just a student of computer science; I am a passionate explorer and a
+                        future leader in the world of technology. With dedication and enthusiasm, I aim to make a
+                        meaningful impact in this ever-evolving field.
+                    </p>
+                    <p>
+                        Keep coding, keep learning, and always reach for the stars!
+
+                    </p>
+                    <p>
+                        Best regards, Niraj Bharadva</p>
+                    <div class="line"></div>
+
+                    <div id="post-actions">
+                        <button onclick="toggleLike()">
+                            <span id="like-icon">👍</span>
+                            <span id="likes-count"><b>0</b></span>
+                        </button>
+
+                        <button onclick="toggleComment()">
+                            <span id="comment-icon">🔗</span>
+                            <span><b>comments</b></span>
+                        </button>
+
+                        <button onclick="sharepost()">
+                            <span id="sharePost">💬</span>
+                            <span><b>share</b></span>
+                        </button>
+
+                        <button onclick="toggleshare()">
+                            <span id="shares"><b>shares_</b></span>
+                            <span id="share-count"><b>0</b></span>
+                        </button>
+
+                    </div>
+
+                    <div id="comments" style="display: none;">
+                        <div id="comment-list"></div>
+                        <input type="text" id="comment-input" placeholder="Add a comment...">
+                        <button id="comment-button" onclick="addComment()">Post</button>
+                    </div>
+                </div>
+
+            </div>
+
+    </div>
+    </aside>
+    </div>
+    <script src="linkedin.js"></script>
+</body>
+
+</html>
